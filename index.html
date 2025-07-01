@@ -1,406 +1,491 @@
-
-
 <!DOCTYPE html>
-<html lang="zh-CN" data-default-color-scheme=auto>
-
-
-
+<html>
 <head>
-  <meta charset="UTF-8">
-
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
-  <link rel="icon" href="/img/fluid.png">
+  <meta charset="utf-8">
   
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-  <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
-  <meta name="keywords" content="">
-  
-    <meta property="og:type" content="website">
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
   
   
   
-  <title>Hexo</title>
-
-  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
-
-
-
-
-
-<!-- 主题依赖的图标库，不要自行修改 -->
-<!-- Do not modify the link that theme dependent icons -->
-
-<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
-
-
-
-<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
-
-
-<link  rel="stylesheet" href="/css/main.css" />
-
-
-  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
-  
-    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
-  
-
-
-
-
-  <script id="fluid-configs">
-    var Fluid = window.Fluid || {};
-    Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
-
-    if (CONFIG.web_analytics.follow_dnt) {
-      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
-      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
-    }
-  </script>
-  <script  src="/js/utils.js" ></script>
-  <script  src="/js/color-schema.js" ></script>
-  
-
+<link rel="stylesheet" href="/css/style.css">
 
   
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
 <meta name="generator" content="Hexo 7.3.0"></head>
 
-
 <body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-CO1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/07/01/CO1/" class="article-date">
+  <time class="dt-published" datetime="2025-07-01T03:30:09.000Z" itemprop="datePublished">2025-07-01</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%AE%A1%E7%BB%84/">计组</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2025/07/01/CO1/">计组笔记第一章</a>
+    </h1>
   
 
-  <header>
+      </header>
     
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="1-1-计算机的发展"><a href="#1-1-计算机的发展" class="headerlink" title="1.1 计算机的发展"></a>1.1 计算机的发展</h1><h2 id="什么是计算机系统？"><a href="#什么是计算机系统？" class="headerlink" title="什么是计算机系统？"></a>什么是计算机系统？</h2><p><font color=red>计算机系统</font> &#x3D; 硬件 + 软件<br>硬件：计算机的实体，如主机、外设等。<br>软件：由具有各类特殊功能的程序组成。<br>$$<br>软件<br>\begin{cases}<br>系统软件, 用来管理整个计算机系统，如OS, DBMS\<br>应用软件, 按任务需求编制成的各种程序，如微信，QQ<br>\end{cases}<br>$$</p>
+<h2 id="硬件的发展"><a href="#硬件的发展" class="headerlink" title="硬件的发展"></a>硬件的发展</h2><table>
+<thead>
+<tr>
+<th>发展阶段</th>
+<th>时间</th>
+<th>逻辑元件</th>
+<th>速度（次&#x2F;秒）</th>
+<th>内存</th>
+<th>外存</th>
+<th>注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第一代</td>
+<td>1946-1957</td>
+<td>电子管</td>
+<td>几千-几万</td>
+<td>汞延迟线、磁鼓</td>
+<td>穿孔卡片、纸带</td>
+<td></td>
+</tr>
+<tr>
+<td>第二代</td>
+<td>1958-1964</td>
+<td>晶体管</td>
+<td>几万-几十万</td>
+<td>磁芯存储器</td>
+<td>磁带</td>
+<td>出现FORTRAN语言，有了OS雏形</td>
+</tr>
+<tr>
+<td>第三代</td>
+<td>1964-1971</td>
+<td>中小规模集成电路</td>
+<td>几十万-几百万</td>
+<td>半导体存储器</td>
+<td>磁带、磁盘</td>
+<td>各种高级语言快速发展，有了分时OS，计算机主要用于科学计算</td>
+</tr>
+<tr>
+<td>第四代</td>
+<td>1971-今</td>
+<td>大规模、超大规模集成电路</td>
+<td>上千万-万亿</td>
+<td>半导体存储器</td>
+<td>磁盘、磁带、光盘、半导体存储器</td>
+<td>出现微处理器（CPU）、微型计算机。个人计算机萌芽，有了OS：Windows, linux</td>
+</tr>
+</tbody></table>
+<ul>
+<li><font color=red>机器字长</font> ：计算机一次整数运算能处理的二级制位数。  </li>
+<li>摩尔定律：集成电路上可容纳的晶体管数目，约每隔18个月会增加一倍，整体性能也将提升一倍。</li>
+</ul>
+<h2 id="软件的发展"><a href="#软件的发展" class="headerlink" title="软件的发展"></a>软件的发展</h2><ul>
+<li>编程语言的发展：<br>机器语言、汇编语言 –&gt; FORTRAN、PASCAL、C++ –&gt; java……  </li>
+<li>操作系统的发展：<br>DOS –&gt; Windows –&gt; 安卓、苹果……</li>
+</ul>
+<h2 id="目前的发展趋势"><a href="#目前的发展趋势" class="headerlink" title="目前的发展趋势"></a>目前的发展趋势</h2><p>“两极”分化：<br>一极是微型计算机更微型化、网络化、高性能、多用途。<br>一极是巨型计算机更巨型化、超高速、并行处理、智能化。  </p>
+<h1 id="1-2-1-计算机硬件的基本组成"><a href="#1-2-1-计算机硬件的基本组成" class="headerlink" title="1.2.1 计算机硬件的基本组成"></a>1.2.1 计算机硬件的基本组成</h1><h2 id="早期冯诺依曼机的结构"><a href="#早期冯诺依曼机的结构" class="headerlink" title="早期冯诺依曼机的结构"></a>早期冯诺依曼机的结构</h2><ul>
+<li>冯·诺依曼首先提出了<font color=red>存储程序</font>的概念。</li>
+<li>存储程序：指<strong>将指令以二进制代码的形式事先输入计算机的主存储器</strong>，然后按其在存储器中的首地址执行程序的第一条指令，以后就按该程序的规定顺序执行其他指令，直至程序执行结束。程序员不需要逐条输入，大幅提高了效率。  </li>
+<li>世界上第一台冯诺依曼结构的计算机EDVAC。</li>
+<li>冯诺依曼机结构如下：<br><img src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222501782-1205873713.png" alt="冯诺依曼结构"><br>控制器发出电信号协调各部件，也负责解析存储器中的指令。<br>输入的数据是软件模块，框内的部分是硬件部分。在计算机系统中，<strong>软件和硬件在逻辑上是等效的</strong>。通常情况下软件实现的成本更低，但是效率也低；硬件实现成本高、效率也高。  </li>
+<li>冯诺依曼机的特点：</li>
+</ul>
+<ol>
+<li>计算机由五大部件组成：输入设备、输出设备、存储器、运算器、控制器。</li>
+<li>指令和数据以<strong>同等地位</strong>存于存储器中，可按地址寻访。  </li>
+<li>指令和数据用二进制表示。</li>
+<li>指令由操作码和地址码组成。</li>
+<li>采用存储程序的方式。</li>
+<li>以运算器为中心。指令和数据要通过运算器才能存进存储器中，输入设备的输入内容要首先发给运算器，输出设备从运算器处获得数据。数据计算和中转都通过运算器。缺点是会降低运算器的效率。</li>
+</ol>
+<h2 id="现代计算机的结构（冯结构的优化）"><a href="#现代计算机的结构（冯结构的优化）" class="headerlink" title="现代计算机的结构（冯结构的优化）"></a>现代计算机的结构（冯结构的优化）</h2><ul>
+<li>现代计算机的结构图如下：<br><img src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222605605-2085356499.png" alt="现代计算机结构1"><br>现代计算机的特点是以存储器为核心，数据通过存储器中转，而由于运算器和控制器的功能十分紧密，所以现代计算机通常把这两个部分整合到一个芯片上，称为CPU。<br><img src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222622590-788863447.png" alt="现代计算机结构2"><br>上图中主存储器可以向CPU传递数据和程序，控制器控制主存的读写、运算器的运算符、输入输出设备的启动等。I&#x2F;O设备直接与主存储器进行数据交换。其中在计组的范畴内CPU和主存储器称为主机。  </li>
+<li><strong>辨析概念：“主存”和“辅存”</strong><br>主存就是主机里的主存储器。<br>辅存是硬盘等辅助存储单元，相当于计算机的外设。</li>
+</ul>
+<h1 id="1-2-2-各个硬件的工作原理"><a href="#1-2-2-各个硬件的工作原理" class="headerlink" title="1.2.2 各个硬件的工作原理"></a>1.2.2 各个硬件的工作原理</h1><h2 id="主存储器"><a href="#主存储器" class="headerlink" title="主存储器"></a>主存储器</h2><ul>
+<li>主存储器的结构如下图：<br><img src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222639920-1195180170.png" alt="主存储器">  </li>
+<li>MAR(memory address register)：存储地址寄存器</li>
+<li>MDR(memory data register)：存储数据寄存器  </li>
+<li>数据在存储器按地址号有序的排列。<br>读取数据时CPU将地址号传入MAR，主存会根据MAR中的地址从存储体中读取对应地址的数据，并将数据传到MDR上。<br>写入数据时CPU把要写入的数据存放地址放在MAR上，把待写入数据存放道MDR上，主存就可以把数据存入对应位置。  </li>
+<li>存储体被分为若干带地址编号的存储单元。每个存储单元存放一串二进制代码。</li>
+</ul>
+<p><font color=red>存储字(word)</font>：存储单元中的二进制代码的组合。<br><font color=red>存储字长</font>：存储单元中二进制代码的位数。一般为8bit的整数倍。<br>存储元：存储二进制的电子元件，每个存储元可存1bit。  </p>
+<ul>
+<li><strong>MAR的位数反应存储单元的个数</strong><br><strong>MDR的位数 &#x3D; 存储字长</strong><br>例如MAR &#x3D; 4位，说明存储体有$2^4$个存储单元，MDR &#x3D; 16位，说明每个存储单元可存放16bit的数据，机器字为16位。一个字就是16bit。</li>
+<li>注：一个字节（Byte） &#x3D; 8bit<br>一个字的长度不一定，要看具体机器，可能时8、32、64位。<br>1B &#x3D; 1Byte &#x3D; 8bit &#x3D; 8b</li>
+</ul>
+<h2 id="运算器的基本组成"><a href="#运算器的基本组成" class="headerlink" title="运算器的基本组成"></a>运算器的基本组成</h2><ul>
+<li>运算器：用于实现算术运算（+-*&#x2F;）、逻辑运算（&amp;|！）</li>
+<li>主要部件：</li>
+</ul>
+<ol>
+<li>ACC(accumulator)：累加器，用于存放操作数或运算结果。</li>
+<li>MQ(multiple-quotient register)：乘商寄存器，在乘除运算时存放操作数或运算结果。  </li>
+<li>X：通用的操作数寄存器，存放操作数。一般有多个。  </li>
+<li>ALU(arithmetic and logic unit)：算数逻辑单元，是运算器的核心部件，通过内部复杂的电路实现算术、逻辑运算。</li>
+</ol>
+<ul>
+<li>运算器的结构如下图所示：<br><img src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222654404-1773048474.png" alt="运算器结构图">  </li>
+<li>运算器内3个特定寄存器的用法如下表所示：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>加</th>
+<th>减</th>
+<th>乘</th>
+<th>除</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ACC</td>
+<td>被加数、和</td>
+<td>被减数、差</td>
+<td>乘积高位</td>
+<td>被除数、余数</td>
+</tr>
+<tr>
+<td>MQ</td>
+<td></td>
+<td></td>
+<td>乘数、乘积低位</td>
+<td>商</td>
+</tr>
+<tr>
+<td>X</td>
+<td>加数</td>
+<td>减数</td>
+<td>被乘数</td>
+<td>除数</td>
+</tr>
+</tbody></table>
+<h2 id="控制器的基本组成"><a href="#控制器的基本组成" class="headerlink" title="控制器的基本组成"></a>控制器的基本组成</h2><ul>
+<li>控制器的基本结构如图：<br><img src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222703923-1337295689.png" alt="控制器的基本结构">  </li>
+<li>主要部件：</li>
+</ul>
+<ol>
+<li>CU(control unit)：控制单元，控制器核心部件，负责分析指令，给出控制信号。  </li>
+<li>IR(instruction register)：指令寄存器，存放当前执行的指令。  </li>
+<li>PC(program counter)：程序计数器，存放下一条指令地址，有自动加一功能。</li>
+</ol>
+<ul>
+<li>每完成一条指令，控制器会根据PC取指令放在IR中，IR把指令交给CU分析生成控制信号。</li>
+</ul>
+<h2 id="计算机的工作过程"><a href="#计算机的工作过程" class="headerlink" title="计算机的工作过程"></a>计算机的工作过程</h2><p>假设有如下C语言代码：  </p>
+<pre><code>int a = 2, b = 3, c = 1, y = 0;
+void main()&#123;
+    y = a * b + c;
+&#125;
+</code></pre>
+<p>这段程序经过编译之后，生成一段计算机能读懂的语言，存入主存。<br><img src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222714999-1022575536.png" alt="装入主存内容">  </p>
+<ul>
+<li>执行过程：<br>提前说明：<br>(寄存器)表示该寄存器的内容；<br>data-&gt;寄存器 表示将data存入寄存器中；<br>M表示主存；<br>M(MAR)表示MAR的地址对应主存存储体的内容。<br>OP表示取指令的操作码。<br>Ad表示指令的地址码</li>
+</ul>
+<ol start="0">
+<li>(PC) &#x3D; 0，指向第一条指令数据。</li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 0</li>
+<li>(PC) + 1 -&gt; PC，PC所指的指令取出后，PC自动加一。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000001</font><font color=yellow>0000000101</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000001</font><font color=yellow>0000000101</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是取数指令。  </li>
+<li>Ad(IR)-&gt;MAR，将指令的地址码送到MAR中，此时MAR &#x3D; 5</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; 0000000000000010 &#x3D; 2</li>
+<li>(MDR)-&gt;ACC，此时(ACC) &#x3D; 0000000000000010 &#x3D; 2  </li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 1</li>
+<li>(PC) + 1 -&gt; PC，此时(PC) &#x3D; 2。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000100</font><font color=yellow>0000000110</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000100</font><font color=yellow>0000000110</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是乘法指令。  </li>
+<li>Ad(IR)-&gt;MAR，将指令的地址码送到MAR中，此时MAR &#x3D; 6.</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; 0000000000000011 &#x3D; 3.</li>
+<li>(MDR)-&gt;MQ，此时(MQ) &#x3D; 0000000000000011 &#x3D; 3.</li>
+<li>(ACC) -&gt; X，(X) &#x3D; 2</li>
+<li>(MQ) * (X) -&gt; ACC，乘法运算由ALU实现，结果高位存在ACC中，低位存在MQ中。此时(ACC) &#x3D; 6，(MQ) &#x3D; 0。</li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 2</li>
+<li>(PC) + 1 -&gt; PC，此时(PC) &#x3D; 3。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000011</font><font color=yellow>0000000111</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000011</font><font color=yellow>0000000111</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是加法指令。</li>
+<li>Ad(IR)-&gt;MAR，将指令的地址码送到MAR中，此时(MAR) &#x3D; 7.</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; 0000000000000001 &#x3D; 1.</li>
+<li>(MDR)-&gt;X，此时(X) &#x3D; 0000000000000001 &#x3D; 1.</li>
+<li>(ACC) + (X) -&gt; ACC, (ACC) &#x3D; 7</li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 3</li>
+<li>(PC) + 1 -&gt; PC，此时(PC) &#x3D; 4。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000010</font><font color=yellow>0000001000</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000010</font><font color=yellow>0000001000</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是存数指令。</li>
+<li>Ad(IR)-&gt;MAR，将指令的地址码送到MAR中，此时(MAR) &#x3D; 8.</li>
+<li>(ACC) -&gt; MDR, (MDR) &#x3D; 7</li>
+<li>(MDR) -&gt; 地址位8的存储单元，最终结果y &#x3D; 7</li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 4</li>
+<li>(PC) + 1 -&gt; PC，此时(PC) &#x3D; 5。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000110</font><font color=yellow>0000000000</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000110</font><font color=yellow>0000000000</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是停机指令。</li>
+<li>利用中断机制通知OS终止该进程。</li>
+</ol>
+<ul>
+<li>指令执行的3个阶段：<br>$$<br>指令执行的3个阶段<br>\begin{cases}<br>取指令\<br>分析指令\<br>执行指令<br>\end{cases}<br>$$<br>其中，取指令和分析指令为必经步骤，执行指令根据具体指令的不同执行步骤也不同。</li>
+</ul>
+<p><font color=red>CPU区分指令和数据的依据：指令周期的不同阶段</font></p>
+<h1 id="1-2-3-计算机系统的层次结构"><a href="#1-2-3-计算机系统的层次结构" class="headerlink" title="1.2.3 计算机系统的层次结构"></a>1.2.3 计算机系统的层次结构</h1><h2 id="计算机系统层次结构"><a href="#计算机系统层次结构" class="headerlink" title="计算机系统层次结构"></a>计算机系统层次结构</h2><table>
+<thead>
+<tr>
+<th>结构层次</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>虚拟机器M4(高级语言机器)</td>
+<td>用编译程序翻译成汇编语言程序</td>
+</tr>
+<tr>
+<td>虚拟机器M3(汇编语言机器)</td>
+<td>用汇编程序翻译成机器语言程序。（因为所有机器理论上最终都只能执行机器语言，所以这里称为虚拟机器）</td>
+</tr>
+<tr>
+<td>虚拟机器M2(操作系统（OS）机器)</td>
+<td>向上提供“广义指令”（系统调用）</td>
+</tr>
+<tr>
+<td>传统机器M1(用机器语言的机器)</td>
+<td>执行二进制指令</td>
+</tr>
+<tr>
+<td>微程序机器M0(使用微指令系统)</td>
+<td>由硬件直接执行微指令</td>
+</tr>
+</tbody></table>
+<ul>
+<li>OS及以上属于软件部分，以下属于硬件部分。</li>
+<li>下层是上层的基础，上层是下层的扩展。</li>
+</ul>
+<h2 id="三种级别的语言"><a href="#三种级别的语言" class="headerlink" title="三种级别的语言"></a>三种级别的语言</h2><ul>
+<li>高级语言需要用编译程序编译成汇编语言。</li>
+<li>汇编语言需要用汇编程序翻译成机器语言。</li>
+<li>有的高级语言可以直接编译成机器语言。</li>
+<li>有的高级语言（python）不通过编译，而是通过解释程序转变为机器语言。</li>
+<li><font color=red>编译程序</font>：将高级语言源程序全部语句一次全部编译成机器语言程序，而后再执行。（只需编译一次）</li>
+</ul>
+<p><font color=red>解释程序</font>：将高级语言源程序的一条语句翻译成对应机器语言后立即执行，紧接着翻译下一句。（每次执行都要翻译）<br>二者区别：编译的效率更高</p>
+<h1 id="1-3-计算机的性能指标"><a href="#1-3-计算机的性能指标" class="headerlink" title="1.3 计算机的性能指标"></a>1.3 计算机的性能指标</h1><h2 id="存储器的性能指标"><a href="#存储器的性能指标" class="headerlink" title="存储器的性能指标"></a>存储器的性能指标</h2><ul>
+<li>存储器容量：<br>MAR反映有多少个存储单元，MDRF反映每个存储单元有多少位。<br>总容量 &#x3D; 存数单元个数 * 存储字长(bit) &#x3D; 存数单元个数 * 存储字长 &#x2F; 8 (Byte)<br><strong>现实中可能总容量小于存数单元个数 * 存储字长，但是做题的时候可以直接这由计算。</strong></li>
+</ul>
+<h2 id="CPU的性能指标"><a href="#CPU的性能指标" class="headerlink" title="CPU的性能指标"></a>CPU的性能指标</h2><ul>
+<li>CPU主频：CPU内数字信号脉冲信号振荡的频率。如下图所示：<br><img src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222749925-1330876583.png" alt="CPU主频"><br>信号的一次振荡称为时钟周期<br>$CPU主频（时钟频率） &#x3D; \frac {1} {CPU时钟周期}$<br>其他条件相同的情况下，CPU主频越高，计算机速度越快。  </li>
+<li>CPI(Clock cycle Per Instruction)：执行一条指令所需的时钟周期数。不同指令，CPI不同；甚至相同质量，CPI也可能发生变化（如取数指令可能与主存当前状态有关）。我们讨论CPI一般为平均情况。<br>$执行一条指令的耗时 &#x3D; CPI \times CPU时钟周期$</li>
+</ul>
+<p> <font color=orange>例题：</font>某CPU主频1000Hz，某程序包含100条指令，平均CPI &#x3D; 3，该程序在CPU该上需要执行多久？<br><font color=orange>解：</font><br>$CPU时钟周期 &#x3D; \frac {1}{CPU主频} &#x3D; \frac {1}{1000} (s)$<br>$平均一条指令耗时 &#x3D; CPI \times CPU时钟周期 &#x3D; 3 \times \frac {1}{1000}  &#x3D; \frac {3}{1000}(s)$<br>$总用时 &#x3D; 指令数 \times 平均一条指令耗时 &#x3D; 100 \times \frac {3}{1000} &#x3D; 0.3(s)$<br>答：该程序在CPU该上需要执行0.3秒。<br>注：整个程序耗时有时也被称作CPU执行时间。  </p>
+<ul>
+<li>IPS(Instruction Per Second)：每秒执行多少条指令。<br>$IPS &#x3D; \frac {主频}{平均CPI}$  </li>
+<li>FLOPS(Floating-point Per Second)：每秒执行多少次浮点运算。<br>IPS和FLOPS前常加K、M等数量单位KIPS、MIPS，KFLOPS、MFLOPS、GFLOPS、TFLOPS等。这里的K、M、G、T与存储器容量和文件大小部分的含义不同。这里的:<br>$K &#x3D; 10^3$<br>$M &#x3D; 10^6$<br>$G &#x3D; 10^9$<br>$T &#x3D; 10^{12}$<br>存储器容量部分：<br>$K &#x3D; 2^{10}$<br>$M &#x3D; 2^{20}$<br>$G &#x3D; 2^{30}$<br>$T &#x3D; 2^{40}$</li>
+</ul>
+<h2 id="系统整体性能指标"><a href="#系统整体性能指标" class="headerlink" title="系统整体性能指标"></a>系统整体性能指标</h2><ul>
+<li>数据通路带宽：数据总线一次所能并行传送信息的位数（各硬件部件通过数据总线传输数据）（CPU&lt;-&gt;内存、内存&lt;-&gt;I&#x2F;O设备之间的信息传输都是靠数据总线） </li>
+<li>吞吐量：指系统在单位时间内处理请求的数量。<br>这个请求是一个较为抽象的概念，可以是一条指令、一段程序、一个HTTP请求。不同功能的系统处理的请求可能不同。<br>吞吐量主要取决于<strong>主存的存取周期</strong>。  </li>
+<li>响应时间：指从用户向计算机发送一个请求，到系统对该请求做出响应并获取它所需结果的等待时间。  </li>
+<li>基准程序：用来测量计算机处理速度的一种实用程序，以便于被测计算机性能可与运行相同程序的其他计算机性能进行比较。（e.g.跑分软件）</li>
+<li>注：</li>
+</ul>
+<ol>
+<li>主频高的计算机不一定比主频低的快。因为CPI可能不同。</li>
+<li>当CPI一定时，主频高的计算机也不一定比主频低的快（因为计算机的指令系统不同）。</li>
+<li>基准程序越快不见得机器性能越好，因为基准程序中的语句存在频度差异。</li>
+</ol>
 
-<div class="header-inner" style="height: 100vh;">
-  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-      <strong>Fluid</strong>
-    </a>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/07/01/CO1/" data-id="cmckbg24i0000usnp20q3b6z4" data-title="计组笔记第一章" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul>
 
-    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon"><span></span><span></span><span></span></div>
-    </button>
+    </footer>
+  </div>
+  
+</article>
 
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto text-center">
+
+
+  
+
+
+</section>
         
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/" target="_self">
-                <i class="iconfont icon-home-fill"></i>
-                <span>首页</span>
-              </a>
-            </li>
-          
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%A1%E7%BB%84/">计组</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/07/">七月 2025</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
         
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/archives/" target="_self">
-                <i class="iconfont icon-archive-fill"></i>
-                <span>归档</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
-                <i class="iconfont icon-category-fill"></i>
-                <span>分类</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/" target="_self">
-                <i class="iconfont icon-tags-fill"></i>
-                <span>标签</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/about/" target="_self">
-                <i class="iconfont icon-user-fill"></i>
-                <span>关于</span>
-              </a>
-            </li>
-          
-        
-        
-          <li class="nav-item" id="search-btn">
-            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
-              <i class="iconfont icon-search"></i>
-            </a>
-          </li>
-          
-        
-        
-          <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
-              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
-            </a>
+          <li>
+            <a href="/2025/07/01/CO1/">计组笔记第一章</a>
           </li>
         
       </ul>
     </div>
   </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2025 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
 </nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
 
   
+<script src="/fancybox/jquery.fancybox.min.js"></script>
 
-<div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
-  <div class="full-bg-img">
-    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-      <div class="banner-text text-center fade-in-up">
-        <div class="h2">
-          
-            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
-          
-        </div>
 
-        
-      </div>
 
-      
-        <div class="scroll-down-bar">
-          <i class="iconfont icon-arrowdown"></i>
-        </div>
-      
-    </div>
+
+<script src="/js/script.js"></script>
+
+
+
+
+
   </div>
-</div>
-
-</div>
-
-  </header>
-
-  <main>
-    
-      <div class="container nopadding-x-md">
-        <div id="board"
-          style="margin-top: 0">
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h2 class="index-header">
-        
-        <a href="/2025/07/01/CO1/" target="_self">
-          计组笔记第一章
-        </a>
-      </h2>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2025/07/01/CO1/" target="_self">
-        <div>
-          1.1 计算机的发展什么是计算机系统？计算机系统 &#x3D; 硬件 + 软件硬件：计算机的实体，如主机、外设等。软件：由具有各类特殊功能的程序组成。$$软件\begin{cases}系统软件, 用来管理整个计算机系统，如OS, DBMS\应用软件, 按任务需求编制成的各种程序，如微信，QQ\end{cases}$$ 硬件的发展   发展阶段 时间 逻辑元件 速度（次&#x2F;秒） 内存 外存
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2025-07-01 11:30" pubdate>
-              2025-07-01
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E8%AE%A1%E7%BB%84/" class="category-chain-item">计组</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/Hexo/">#Hexo</a>
-            
-              <a href="/tags/GitHub/">#GitHub</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-
-
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    
-
-    
-      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
-        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
-      </a>
-    
-
-    
-      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
-     aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
-        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
-        </div>
-        <div class="list-group" id="local-search-result"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    
-
-    
-  </main>
-
-  <footer>
-    <div class="footer-inner">
-  
-    <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
-    </div>
-  
-  
-  
-</div>
-
-  </footer>
-
-  <!-- Scripts -->
-  
-  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
-  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
-
-  <script>
-    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
-    NProgress.start()
-    window.addEventListener('load', function() {
-      NProgress.done();
-    })
-  </script>
-
-
-<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
-<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
-<script  src="/js/events.js" ></script>
-<script  src="/js/plugins.js" ></script>
-
-
-  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var subtitle = document.getElementById('subtitle');
-      if (!subtitle || !typing) {
-        return;
-      }
-      var text = subtitle.getAttribute('data-typed-text');
-      
-        typing(text);
-      
-    })(window, document);
-  </script>
-
-
-
-
-  
-    <script  src="/js/img-lazyload.js" ></script>
-  
-
-
-
-
-  <script  src="/js/local-search.js" ></script>
-
-
-
-
-
-<!-- 主题的启动项，将它保持在最底部 -->
-<!-- the boot of the theme, keep it at the bottom -->
-<script  src="/js/boot.js" ></script>
-
-
-  
-
-  <noscript>
-    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
-  </noscript>
 </body>
 </html>
