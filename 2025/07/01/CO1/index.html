@@ -1,0 +1,620 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>计组笔记第一章 | Hexo</title><meta name="keywords" content="Hexo,GitHub"><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="计组笔记第一章"><meta name="application-name" content="计组笔记第一章"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="计组笔记第一章"><meta property="og:url" content="http://example.com/2025/07/01/CO1/index.html"><meta property="og:site_name" content="Hexo"><meta property="og:description" content="1.1 计算机的发展什么是计算机系统？计算机系统 &amp;#x3D; 硬件 + 软件硬件：计算机的实体，如主机、外设等。软件：由具有各类特殊功能的程序组成。$$软件\begin{cases}系统软件, 用来管理整个计算机系统，如OS, DBMS\应用软件, 按任务需求编制成的各种程序，如微信，QQ\end"><meta property="og:locale" content="en"><meta property="og:image" content="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg"><meta property="article:author" content="John Doe"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg"><meta name="description" content="1.1 计算机的发展什么是计算机系统？计算机系统 &amp;#x3D; 硬件 + 软件硬件：计算机的实体，如主机、外设等。软件：由具有各类特殊功能的程序组成。$$软件\begin{cases}系统软件, 用来管理整个计算机系统，如OS, DBMS\应用软件, 按任务需求编制成的各种程序，如微信，QQ\end"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="http://example.com/2025/07/01/CO1/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: {"enable":true,"img":"https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png"},
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"Author: John Doe","link":"Link: ","source":"Source: Hexo","info":"Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.","copySuccess":"Copy success, copy and reprint please mark the address of this article"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"Traditional Chinese Activated Manually","cht_to_chs":"Simplified Chinese Activated Manually","day_to_night":"Dark Mode Activated Manually","night_to_day":"Light Mode Activated Manually","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'Hexo',
+  title: '计组笔记第一章',
+  postAI: '',
+  pageFillDescription: '1.1 计算机的发展, 什么是计算机系统？, 硬件的发展, 软件的发展, 目前的发展趋势, 1.2.1 计算机硬件的基本组成, 早期冯诺依曼机的结构, 现代计算机的结构（冯结构的优化）, 1.2.2 各个硬件的工作原理, 主存储器, 运算器的基本组成, 控制器的基本组成, 计算机的工作过程, 1.2.3 计算机系统的层次结构, 计算机系统层次结构, 三种级别的语言, 1.3 计算机的性能指标, 存储器的性能指标, CPU的性能指标, 系统整体性能指标计算机的发展什么是计算机系统计算机系统硬件软件硬件计算机的实体如主机外设等软件由具有各类特殊功能的程序组成软件系统软件用来管理整个计算机系统如应用软件按任务需求编制成的各种程序如微信硬件的发展发展阶段时间逻辑元件速度次秒内存外存注第一代电子管几千几万汞延迟线磁鼓穿孔卡片纸带第二代晶体管几万几十万磁芯存储器磁带出现语言有了雏形第三代中小规模集成电路几十万几百万半导体存储器磁带磁盘各种高级语言快速发展有了分时计算机主要用于科学计算第四代今大规模超大规模集成电路上千万万亿半导体存储器磁盘磁带光盘半导体存储器出现微处理器微型计算机个人计算机萌芽有了机器字长计算机一次整数运算能处理的二级制位数摩尔定律集成电路上可容纳的晶体管数目约每隔个月会增加一倍整体性能也将提升一倍软件的发展编程语言的发展机器语言汇编语言操作系统的发展安卓苹果目前的发展趋势两极分化一极是微型计算机更微型化网络化高性能多用途一极是巨型计算机更巨型化超高速并行处理智能化计算机硬件的基本组成早期冯诺依曼机的结构冯诺依曼首先提出了存储程序的概念存储程序指将指令以二进制代码的形式事先输入计算机的主存储器然后按其在存储器中的首地址执行程序的第一条指令以后就按该程序的规定顺序执行其他指令直至程序执行结束程序员不需要逐条输入大幅提高了效率世界上第一台冯诺依曼结构的计算机冯诺依曼机结构如下控制器发出电信号协调各部件也负责解析存储器中的指令输入的数据是软件模块框内的部分是硬件部分在计算机系统中软件和硬件在逻辑上是等效的通常情况下软件实现的成本更低但是效率也低硬件实现成本高效率也高冯诺依曼机的特点计算机由五大部件组成输入设备输出设备存储器运算器控制器指令和数据以同等地位存于存储器中可按地址寻访指令和数据用二进制表示指令由操作码和地址码组成采用存储程序的方式以运算器为中心指令和数据要通过运算器才能存进存储器中输入设备的输入内容要首先发给运算器输出设备从运算器处获得数据数据计算和中转都通过运算器缺点是会降低运算器的效率现代计算机的结构冯结构的优化现代计算机的结构图如下现代计算机的特点是以存储器为核心数据通过存储器中转而由于运算器和控制器的功能十分紧密所以现代计算机通常把这两个部分整合到一个芯片上称为上图中主存储器可以向传递数据和程序控制器控制主存的读写运算器的运算符输入输出设备的启动等设备直接与主存储器进行数据交换其中在计组的范畴内和主存储器称为主机辨析概念主存和辅存主存就是主机里的主存储器辅存是硬盘等辅助存储单元相当于计算机的外设各个硬件的工作原理主存储器主存储器的结构如下图存储地址寄存器存储数据寄存器数据在存储器按地址号有序的排列读取数据时将地址号传入主存会根据中的地址从存储体中读取对应地址的数据并将数据传到上写入数据时把要写入的数据存放地址放在上把待写入数据存放道上主存就可以把数据存入对应位置存储体被分为若干带地址编号的存储单元每个存储单元存放一串二进制代码存储字存储单元中的二进制代码的组合存储字长存储单元中二进制代码的位数一般为的整数倍存储元存储二进制的电子元件每个存储元可存的位数反应存储单元的个数的位数存储字长例如位说明存储体有个存储单元位说明每个存储单元可存放的数据机器字为位一个字就是注一个字节一个字的长度不一定要看具体机器可能时位运算器的基本组成运算器用于实现算术运算逻辑运算主要部件累加器用于存放操作数或运算结果乘商寄存器在乘除运算时存放操作数或运算结果通用的操作数寄存器存放操作数一般有多个算数逻辑单元是运算器的核心部件通过内部复杂的电路实现算术逻辑运算运算器的结构如下图所示运算器内个特定寄存器的用法如下表所示加减乘除被加数和被减数差乘积高位被除数余数乘数乘积低位商加数减数被乘数除数控制器的基本组成控制器的基本结构如图主要部件控制单元控制器核心部件负责分析指令给出控制信号指令寄存器存放当前执行的指令程序计数器存放下一条指令地址有自动加一功能每完成一条指令控制器会根据取指令放在中把指令交给分析生成控制信号计算机的工作过程假设有如下语言代码这段程序经过编译之后生成一段计算机能读懂的语言存入主存执行过程提前说明寄存器表示该寄存器的内容寄存器表示将存入寄存器中表示主存表示的地址对应主存存储体的内容表示取指令的操作码表示指令的地址码指向第一条指令数据此时所指的指令取出后自动加一此时此时指令的操作码送到分析后得知这是取数指令将指令的地址码送到中此时此时此时此时此时此时此时指令的操作码送到分析后得知这是乘法指令将指令的地址码送到中此时此时此时乘法运算由实现结果高位存在中低位存在中此时此时此时此时此时指令的操作码送到分析后得知这是加法指令将指令的地址码送到中此时此时此时此时此时此时此时指令的操作码送到分析后得知这是存数指令将指令的地址码送到中此时地址位的存储单元最终结果此时此时此时此时指令的操作码送到分析后得知这是停机指令利用中断机制通知终止该进程指令执行的个阶段指令执行的个阶段取指令分析指令执行指令其中取指令和分析指令为必经步骤执行指令根据具体指令的不同执行步骤也不同区分指令和数据的依据指令周期的不同阶段计算机系统的层次结构计算机系统层次结构结构层次注释虚拟机器高级语言机器用编译程序翻译成汇编语言程序虚拟机器汇编语言机器用汇编程序翻译成机器语言程序因为所有机器理论上最终都只能执行机器语言所以这里称为虚拟机器虚拟机器操作系统机器向上提供广义指令系统调用传统机器用机器语言的机器执行二进制指令微程序机器使用微指令系统由硬件直接执行微指令及以上属于软件部分以下属于硬件部分下层是上层的基础上层是下层的扩展三种级别的语言高级语言需要用编译程序编译成汇编语言汇编语言需要用汇编程序翻译成机器语言有的高级语言可以直接编译成机器语言有的高级语言不通过编译而是通过解释程序转变为机器语言编译程序将高级语言源程序全部语句一次全部编译成机器语言程序而后再执行只需编译一次解释程序将高级语言源程序的一条语句翻译成对应机器语言后立即执行紧接着翻译下一句每次执行都要翻译二者区别编译的效率更高计算机的性能指标存储器的性能指标存储器容量反映有多少个存储单元反映每个存储单元有多少位总容量存数单元个数存储字长存数单元个数存储字长现实中可能总容量小于存数单元个数存储字长但是做题的时候可以直接这由计算的性能指标主频内数字信号脉冲信号振荡的频率如下图所示信号的一次振荡称为时钟周期主频时钟频率时钟周期其他条件相同的情况下主频越高计算机速度越快执行一条指令所需的时钟周期数不同指令不同甚至相同质量也可能发生变化如取数指令可能与主存当前状态有关我们讨论一般为平均情况执行一条指令的耗时时钟周期例题某主频某程序包含条指令平均该程序在该上需要执行多久解时钟周期主频平均一条指令耗时时钟周期总用时指令数平均一条指令耗时答该程序在该上需要执行秒注整个程序耗时有时也被称作执行时间每秒执行多少条指令主频平均每秒执行多少次浮点运算和前常加等数量单位等这里的与存储器容量和文件大小部分的含义不同这里的存储器容量部分系统整体性能指标数据通路带宽数据总线一次所能并行传送信息的位数各硬件部件通过数据总线传输数据内存内存设备之间的信息传输都是靠数据总线吞吐量指系统在单位时间内处理请求的数量这个请求是一个较为抽象的概念可以是一条指令一段程序一个请求不同功能的系统处理的请求可能不同吞吐量主要取决于主存的存取周期响应时间指从用户向计算机发送一个请求到系统对该请求做出响应并获取它所需结果的等待时间基准程序用来测量计算机处理速度的一种实用程序以便于被测计算机性能可与运行相同程序的其他计算机性能进行比较跑分软件注主频高的计算机不一定比主频低的快因为可能不同当一定时主频高的计算机也不一定比主频低的快因为计算机的指令系统不同基准程序越快不见得机器性能越好因为基准程序中的语句存在频度差异',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-07-01 16:07:11',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">Hexo</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> Newest Comments</span></div><div class="aside-list"><span>loading...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/GitHub/" style="font-size: 1.05rem;">GitHub<sup>1</sup></a><a href="/tags/Hexo/" style="font-size: 1.05rem;">Hexo<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/07/"><span class="card-archive-list-date">July 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%BB%84/" itemprop="url">计组</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/Hexo/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Hexo</span></a><a class="article-meta__tags" href="/tags/GitHub/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>GitHub</span></a></span></div></div><h1 class="post-title" itemprop="name headline">计组笔记第一章</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2025-07-01T03:30:09.000Z" title="Created 2025-07-01 11:30:09">2025-07-01</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2025-07-01T08:07:11.236Z" title="Updated 2025-07-01 16:07:11">2025-07-01</time></span></div><div class="meta-secondline"><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为长沙"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>长沙</span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src=""></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="http://example.com/2025/07/01/CO1/"><header><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%BB%84/" itemprop="url">计组</a><a href="/tags/Hexo/" tabindex="-1" itemprop="url">Hexo</a><a href="/tags/GitHub/" tabindex="-1" itemprop="url">GitHub</a><h1 id="CrawlerTitle" itemprop="name headline">计组笔记第一章</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">John Doe</span><time itemprop="dateCreated datePublished" datetime="2025-07-01T03:30:09.000Z" title="Created 2025-07-01 11:30:09">2025-07-01</time><time itemprop="dateCreated datePublished" datetime="2025-07-01T08:07:11.236Z" title="Updated 2025-07-01 16:07:11">2025-07-01</time></header><h1 id="1-1-计算机的发展"><a href="#1-1-计算机的发展" class="headerlink" title="1.1 计算机的发展"></a>1.1 计算机的发展</h1><h2 id="什么是计算机系统？"><a href="#什么是计算机系统？" class="headerlink" title="什么是计算机系统？"></a>什么是计算机系统？</h2><p><font color=red>计算机系统</font> &#x3D; 硬件 + 软件<br>硬件：计算机的实体，如主机、外设等。<br>软件：由具有各类特殊功能的程序组成。<br>$$<br>软件<br>\begin{cases}<br>系统软件, 用来管理整个计算机系统，如OS, DBMS\<br>应用软件, 按任务需求编制成的各种程序，如微信，QQ<br>\end{cases}<br>$$</p>
+<h2 id="硬件的发展"><a href="#硬件的发展" class="headerlink" title="硬件的发展"></a>硬件的发展</h2><table>
+<thead>
+<tr>
+<th>发展阶段</th>
+<th>时间</th>
+<th>逻辑元件</th>
+<th>速度（次&#x2F;秒）</th>
+<th>内存</th>
+<th>外存</th>
+<th>注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第一代</td>
+<td>1946-1957</td>
+<td>电子管</td>
+<td>几千-几万</td>
+<td>汞延迟线、磁鼓</td>
+<td>穿孔卡片、纸带</td>
+<td></td>
+</tr>
+<tr>
+<td>第二代</td>
+<td>1958-1964</td>
+<td>晶体管</td>
+<td>几万-几十万</td>
+<td>磁芯存储器</td>
+<td>磁带</td>
+<td>出现FORTRAN语言，有了OS雏形</td>
+</tr>
+<tr>
+<td>第三代</td>
+<td>1964-1971</td>
+<td>中小规模集成电路</td>
+<td>几十万-几百万</td>
+<td>半导体存储器</td>
+<td>磁带、磁盘</td>
+<td>各种高级语言快速发展，有了分时OS，计算机主要用于科学计算</td>
+</tr>
+<tr>
+<td>第四代</td>
+<td>1971-今</td>
+<td>大规模、超大规模集成电路</td>
+<td>上千万-万亿</td>
+<td>半导体存储器</td>
+<td>磁盘、磁带、光盘、半导体存储器</td>
+<td>出现微处理器（CPU）、微型计算机。个人计算机萌芽，有了OS：Windows, linux</td>
+</tr>
+</tbody></table>
+<ul>
+<li><font color=red>机器字长</font> ：计算机一次整数运算能处理的二级制位数。  </li>
+<li>摩尔定律：集成电路上可容纳的晶体管数目，约每隔18个月会增加一倍，整体性能也将提升一倍。</li>
+</ul>
+<h2 id="软件的发展"><a href="#软件的发展" class="headerlink" title="软件的发展"></a>软件的发展</h2><ul>
+<li>编程语言的发展：<br>机器语言、汇编语言 –&gt; FORTRAN、PASCAL、C++ –&gt; java……  </li>
+<li>操作系统的发展：<br>DOS –&gt; Windows –&gt; 安卓、苹果……</li>
+</ul>
+<h2 id="目前的发展趋势"><a href="#目前的发展趋势" class="headerlink" title="目前的发展趋势"></a>目前的发展趋势</h2><p>“两极”分化：<br>一极是微型计算机更微型化、网络化、高性能、多用途。<br>一极是巨型计算机更巨型化、超高速、并行处理、智能化。  </p>
+<h1 id="1-2-1-计算机硬件的基本组成"><a href="#1-2-1-计算机硬件的基本组成" class="headerlink" title="1.2.1 计算机硬件的基本组成"></a>1.2.1 计算机硬件的基本组成</h1><h2 id="早期冯诺依曼机的结构"><a href="#早期冯诺依曼机的结构" class="headerlink" title="早期冯诺依曼机的结构"></a>早期冯诺依曼机的结构</h2><ul>
+<li>冯·诺依曼首先提出了<font color=red>存储程序</font>的概念。</li>
+<li>存储程序：指<strong>将指令以二进制代码的形式事先输入计算机的主存储器</strong>，然后按其在存储器中的首地址执行程序的第一条指令，以后就按该程序的规定顺序执行其他指令，直至程序执行结束。程序员不需要逐条输入，大幅提高了效率。  </li>
+<li>世界上第一台冯诺依曼结构的计算机EDVAC。</li>
+<li>冯诺依曼机结构如下：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222501782-1205873713.png" alt="冯诺依曼结构"><br>控制器发出电信号协调各部件，也负责解析存储器中的指令。<br>输入的数据是软件模块，框内的部分是硬件部分。在计算机系统中，<strong>软件和硬件在逻辑上是等效的</strong>。通常情况下软件实现的成本更低，但是效率也低；硬件实现成本高、效率也高。  </li>
+<li>冯诺依曼机的特点：</li>
+</ul>
+<ol>
+<li>计算机由五大部件组成：输入设备、输出设备、存储器、运算器、控制器。</li>
+<li>指令和数据以<strong>同等地位</strong>存于存储器中，可按地址寻访。  </li>
+<li>指令和数据用二进制表示。</li>
+<li>指令由操作码和地址码组成。</li>
+<li>采用存储程序的方式。</li>
+<li>以运算器为中心。指令和数据要通过运算器才能存进存储器中，输入设备的输入内容要首先发给运算器，输出设备从运算器处获得数据。数据计算和中转都通过运算器。缺点是会降低运算器的效率。</li>
+</ol>
+<h2 id="现代计算机的结构（冯结构的优化）"><a href="#现代计算机的结构（冯结构的优化）" class="headerlink" title="现代计算机的结构（冯结构的优化）"></a>现代计算机的结构（冯结构的优化）</h2><ul>
+<li>现代计算机的结构图如下：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222605605-2085356499.png" alt="现代计算机结构1"><br>现代计算机的特点是以存储器为核心，数据通过存储器中转，而由于运算器和控制器的功能十分紧密，所以现代计算机通常把这两个部分整合到一个芯片上，称为CPU。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222622590-788863447.png" alt="现代计算机结构2"><br>上图中主存储器可以向CPU传递数据和程序，控制器控制主存的读写、运算器的运算符、输入输出设备的启动等。I&#x2F;O设备直接与主存储器进行数据交换。其中在计组的范畴内CPU和主存储器称为主机。  </li>
+<li><strong>辨析概念：“主存”和“辅存”</strong><br>主存就是主机里的主存储器。<br>辅存是硬盘等辅助存储单元，相当于计算机的外设。</li>
+</ul>
+<h1 id="1-2-2-各个硬件的工作原理"><a href="#1-2-2-各个硬件的工作原理" class="headerlink" title="1.2.2 各个硬件的工作原理"></a>1.2.2 各个硬件的工作原理</h1><h2 id="主存储器"><a href="#主存储器" class="headerlink" title="主存储器"></a>主存储器</h2><ul>
+<li>主存储器的结构如下图：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222639920-1195180170.png" alt="主存储器">  </li>
+<li>MAR(memory address register)：存储地址寄存器</li>
+<li>MDR(memory data register)：存储数据寄存器  </li>
+<li>数据在存储器按地址号有序的排列。<br>读取数据时CPU将地址号传入MAR，主存会根据MAR中的地址从存储体中读取对应地址的数据，并将数据传到MDR上。<br>写入数据时CPU把要写入的数据存放地址放在MAR上，把待写入数据存放道MDR上，主存就可以把数据存入对应位置。  </li>
+<li>存储体被分为若干带地址编号的存储单元。每个存储单元存放一串二进制代码。</li>
+</ul>
+<p><font color=red>存储字(word)</font>：存储单元中的二进制代码的组合。<br><font color=red>存储字长</font>：存储单元中二进制代码的位数。一般为8bit的整数倍。<br>存储元：存储二进制的电子元件，每个存储元可存1bit。  </p>
+<ul>
+<li><strong>MAR的位数反应存储单元的个数</strong><br><strong>MDR的位数 &#x3D; 存储字长</strong><br>例如MAR &#x3D; 4位，说明存储体有$2^4$个存储单元，MDR &#x3D; 16位，说明每个存储单元可存放16bit的数据，机器字为16位。一个字就是16bit。</li>
+<li>注：一个字节（Byte） &#x3D; 8bit<br>一个字的长度不一定，要看具体机器，可能时8、32、64位。<br>1B &#x3D; 1Byte &#x3D; 8bit &#x3D; 8b</li>
+</ul>
+<h2 id="运算器的基本组成"><a href="#运算器的基本组成" class="headerlink" title="运算器的基本组成"></a>运算器的基本组成</h2><ul>
+<li>运算器：用于实现算术运算（+-*&#x2F;）、逻辑运算（&amp;|！）</li>
+<li>主要部件：</li>
+</ul>
+<ol>
+<li>ACC(accumulator)：累加器，用于存放操作数或运算结果。</li>
+<li>MQ(multiple-quotient register)：乘商寄存器，在乘除运算时存放操作数或运算结果。  </li>
+<li>X：通用的操作数寄存器，存放操作数。一般有多个。  </li>
+<li>ALU(arithmetic and logic unit)：算数逻辑单元，是运算器的核心部件，通过内部复杂的电路实现算术、逻辑运算。</li>
+</ol>
+<ul>
+<li>运算器的结构如下图所示：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222654404-1773048474.png" alt="运算器结构图">  </li>
+<li>运算器内3个特定寄存器的用法如下表所示：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>加</th>
+<th>减</th>
+<th>乘</th>
+<th>除</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ACC</td>
+<td>被加数、和</td>
+<td>被减数、差</td>
+<td>乘积高位</td>
+<td>被除数、余数</td>
+</tr>
+<tr>
+<td>MQ</td>
+<td></td>
+<td></td>
+<td>乘数、乘积低位</td>
+<td>商</td>
+</tr>
+<tr>
+<td>X</td>
+<td>加数</td>
+<td>减数</td>
+<td>被乘数</td>
+<td>除数</td>
+</tr>
+</tbody></table>
+<h2 id="控制器的基本组成"><a href="#控制器的基本组成" class="headerlink" title="控制器的基本组成"></a>控制器的基本组成</h2><ul>
+<li>控制器的基本结构如图：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222703923-1337295689.png" alt="控制器的基本结构">  </li>
+<li>主要部件：</li>
+</ul>
+<ol>
+<li>CU(control unit)：控制单元，控制器核心部件，负责分析指令，给出控制信号。  </li>
+<li>IR(instruction register)：指令寄存器，存放当前执行的指令。  </li>
+<li>PC(program counter)：程序计数器，存放下一条指令地址，有自动加一功能。</li>
+</ol>
+<ul>
+<li>每完成一条指令，控制器会根据PC取指令放在IR中，IR把指令交给CU分析生成控制信号。</li>
+</ul>
+<h2 id="计算机的工作过程"><a href="#计算机的工作过程" class="headerlink" title="计算机的工作过程"></a>计算机的工作过程</h2><p>假设有如下C语言代码：  </p>
+<pre><code>int a = 2, b = 3, c = 1, y = 0;
+void main()&#123;
+    y = a * b + c;
+&#125;
+</code></pre>
+<p>这段程序经过编译之后，生成一段计算机能读懂的语言，存入主存。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222714999-1022575536.png" alt="装入主存内容">  </p>
+<ul>
+<li>执行过程：<br>提前说明：<br>(寄存器)表示该寄存器的内容；<br>data-&gt;寄存器 表示将data存入寄存器中；<br>M表示主存；<br>M(MAR)表示MAR的地址对应主存存储体的内容。<br>OP表示取指令的操作码。<br>Ad表示指令的地址码</li>
+</ul>
+<ol start="0">
+<li>(PC) &#x3D; 0，指向第一条指令数据。</li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 0</li>
+<li>(PC) + 1 -&gt; PC，PC所指的指令取出后，PC自动加一。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000001</font><font color=yellow>0000000101</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000001</font><font color=yellow>0000000101</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是取数指令。  </li>
+<li>Ad(IR)-&gt;MAR，将指令的地址码送到MAR中，此时MAR &#x3D; 5</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; 0000000000000010 &#x3D; 2</li>
+<li>(MDR)-&gt;ACC，此时(ACC) &#x3D; 0000000000000010 &#x3D; 2  </li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 1</li>
+<li>(PC) + 1 -&gt; PC，此时(PC) &#x3D; 2。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000100</font><font color=yellow>0000000110</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000100</font><font color=yellow>0000000110</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是乘法指令。  </li>
+<li>Ad(IR)-&gt;MAR，将指令的地址码送到MAR中，此时MAR &#x3D; 6.</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; 0000000000000011 &#x3D; 3.</li>
+<li>(MDR)-&gt;MQ，此时(MQ) &#x3D; 0000000000000011 &#x3D; 3.</li>
+<li>(ACC) -&gt; X，(X) &#x3D; 2</li>
+<li>(MQ) * (X) -&gt; ACC，乘法运算由ALU实现，结果高位存在ACC中，低位存在MQ中。此时(ACC) &#x3D; 6，(MQ) &#x3D; 0。</li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 2</li>
+<li>(PC) + 1 -&gt; PC，此时(PC) &#x3D; 3。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000011</font><font color=yellow>0000000111</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000011</font><font color=yellow>0000000111</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是加法指令。</li>
+<li>Ad(IR)-&gt;MAR，将指令的地址码送到MAR中，此时(MAR) &#x3D; 7.</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; 0000000000000001 &#x3D; 1.</li>
+<li>(MDR)-&gt;X，此时(X) &#x3D; 0000000000000001 &#x3D; 1.</li>
+<li>(ACC) + (X) -&gt; ACC, (ACC) &#x3D; 7</li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 3</li>
+<li>(PC) + 1 -&gt; PC，此时(PC) &#x3D; 4。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000010</font><font color=yellow>0000001000</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000010</font><font color=yellow>0000001000</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是存数指令。</li>
+<li>Ad(IR)-&gt;MAR，将指令的地址码送到MAR中，此时(MAR) &#x3D; 8.</li>
+<li>(ACC) -&gt; MDR, (MDR) &#x3D; 7</li>
+<li>(MDR) -&gt; 地址位8的存储单元，最终结果y &#x3D; 7</li>
+<li>(PC)-&gt;MAR，此时(MAR) &#x3D; 4</li>
+<li>(PC) + 1 -&gt; PC，此时(PC) &#x3D; 5。</li>
+<li>M(MAR)-&gt;MDR，此时(MDR) &#x3D; <font color=red>000110</font><font color=yellow>0000000000</font>  </li>
+<li>(MDR)-&gt;IR，此时(IR) &#x3D; <font color=red>000110</font><font color=yellow>0000000000</font>  </li>
+<li>OP(IR)-&gt;CU，指令的操作码送到CU，CU分析后得知这是停机指令。</li>
+<li>利用中断机制通知OS终止该进程。</li>
+</ol>
+<ul>
+<li>指令执行的3个阶段：<br>$$<br>指令执行的3个阶段<br>\begin{cases}<br>取指令\<br>分析指令\<br>执行指令<br>\end{cases}<br>$$<br>其中，取指令和分析指令为必经步骤，执行指令根据具体指令的不同执行步骤也不同。</li>
+</ul>
+<p><font color=red>CPU区分指令和数据的依据：指令周期的不同阶段</font></p>
+<h1 id="1-2-3-计算机系统的层次结构"><a href="#1-2-3-计算机系统的层次结构" class="headerlink" title="1.2.3 计算机系统的层次结构"></a>1.2.3 计算机系统的层次结构</h1><h2 id="计算机系统层次结构"><a href="#计算机系统层次结构" class="headerlink" title="计算机系统层次结构"></a>计算机系统层次结构</h2><table>
+<thead>
+<tr>
+<th>结构层次</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>虚拟机器M4(高级语言机器)</td>
+<td>用编译程序翻译成汇编语言程序</td>
+</tr>
+<tr>
+<td>虚拟机器M3(汇编语言机器)</td>
+<td>用汇编程序翻译成机器语言程序。（因为所有机器理论上最终都只能执行机器语言，所以这里称为虚拟机器）</td>
+</tr>
+<tr>
+<td>虚拟机器M2(操作系统（OS）机器)</td>
+<td>向上提供“广义指令”（系统调用）</td>
+</tr>
+<tr>
+<td>传统机器M1(用机器语言的机器)</td>
+<td>执行二进制指令</td>
+</tr>
+<tr>
+<td>微程序机器M0(使用微指令系统)</td>
+<td>由硬件直接执行微指令</td>
+</tr>
+</tbody></table>
+<ul>
+<li>OS及以上属于软件部分，以下属于硬件部分。</li>
+<li>下层是上层的基础，上层是下层的扩展。</li>
+</ul>
+<h2 id="三种级别的语言"><a href="#三种级别的语言" class="headerlink" title="三种级别的语言"></a>三种级别的语言</h2><ul>
+<li>高级语言需要用编译程序编译成汇编语言。</li>
+<li>汇编语言需要用汇编程序翻译成机器语言。</li>
+<li>有的高级语言可以直接编译成机器语言。</li>
+<li>有的高级语言（python）不通过编译，而是通过解释程序转变为机器语言。</li>
+<li><font color=red>编译程序</font>：将高级语言源程序全部语句一次全部编译成机器语言程序，而后再执行。（只需编译一次）</li>
+</ul>
+<p><font color=red>解释程序</font>：将高级语言源程序的一条语句翻译成对应机器语言后立即执行，紧接着翻译下一句。（每次执行都要翻译）<br>二者区别：编译的效率更高</p>
+<h1 id="1-3-计算机的性能指标"><a href="#1-3-计算机的性能指标" class="headerlink" title="1.3 计算机的性能指标"></a>1.3 计算机的性能指标</h1><h2 id="存储器的性能指标"><a href="#存储器的性能指标" class="headerlink" title="存储器的性能指标"></a>存储器的性能指标</h2><ul>
+<li>存储器容量：<br>MAR反映有多少个存储单元，MDRF反映每个存储单元有多少位。<br>总容量 &#x3D; 存数单元个数 * 存储字长(bit) &#x3D; 存数单元个数 * 存储字长 &#x2F; 8 (Byte)<br><strong>现实中可能总容量小于存数单元个数 * 存储字长，但是做题的时候可以直接这由计算。</strong></li>
+</ul>
+<h2 id="CPU的性能指标"><a href="#CPU的性能指标" class="headerlink" title="CPU的性能指标"></a>CPU的性能指标</h2><ul>
+<li>CPU主频：CPU内数字信号脉冲信号振荡的频率。如下图所示：<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2023.cnblogs.com/blog/3477358/202407/3477358-20240713222749925-1330876583.png" alt="CPU主频"><br>信号的一次振荡称为时钟周期<br>$CPU主频（时钟频率） &#x3D; \frac {1} {CPU时钟周期}$<br>其他条件相同的情况下，CPU主频越高，计算机速度越快。  </li>
+<li>CPI(Clock cycle Per Instruction)：执行一条指令所需的时钟周期数。不同指令，CPI不同；甚至相同质量，CPI也可能发生变化（如取数指令可能与主存当前状态有关）。我们讨论CPI一般为平均情况。<br>$执行一条指令的耗时 &#x3D; CPI \times CPU时钟周期$</li>
+</ul>
+<p> <font color=orange>例题：</font>某CPU主频1000Hz，某程序包含100条指令，平均CPI &#x3D; 3，该程序在CPU该上需要执行多久？<br><font color=orange>解：</font><br>$CPU时钟周期 &#x3D; \frac {1}{CPU主频} &#x3D; \frac {1}{1000} (s)$<br>$平均一条指令耗时 &#x3D; CPI \times CPU时钟周期 &#x3D; 3 \times \frac {1}{1000}  &#x3D; \frac {3}{1000}(s)$<br>$总用时 &#x3D; 指令数 \times 平均一条指令耗时 &#x3D; 100 \times \frac {3}{1000} &#x3D; 0.3(s)$<br>答：该程序在CPU该上需要执行0.3秒。<br>注：整个程序耗时有时也被称作CPU执行时间。  </p>
+<ul>
+<li>IPS(Instruction Per Second)：每秒执行多少条指令。<br>$IPS &#x3D; \frac {主频}{平均CPI}$  </li>
+<li>FLOPS(Floating-point Per Second)：每秒执行多少次浮点运算。<br>IPS和FLOPS前常加K、M等数量单位KIPS、MIPS，KFLOPS、MFLOPS、GFLOPS、TFLOPS等。这里的K、M、G、T与存储器容量和文件大小部分的含义不同。这里的:<br>$K &#x3D; 10^3$<br>$M &#x3D; 10^6$<br>$G &#x3D; 10^9$<br>$T &#x3D; 10^{12}$<br>存储器容量部分：<br>$K &#x3D; 2^{10}$<br>$M &#x3D; 2^{20}$<br>$G &#x3D; 2^{30}$<br>$T &#x3D; 2^{40}$</li>
+</ul>
+<h2 id="系统整体性能指标"><a href="#系统整体性能指标" class="headerlink" title="系统整体性能指标"></a>系统整体性能指标</h2><ul>
+<li>数据通路带宽：数据总线一次所能并行传送信息的位数（各硬件部件通过数据总线传输数据）（CPU&lt;-&gt;内存、内存&lt;-&gt;I&#x2F;O设备之间的信息传输都是靠数据总线） </li>
+<li>吞吐量：指系统在单位时间内处理请求的数量。<br>这个请求是一个较为抽象的概念，可以是一条指令、一段程序、一个HTTP请求。不同功能的系统处理的请求可能不同。<br>吞吐量主要取决于<strong>主存的存取周期</strong>。  </li>
+<li>响应时间：指从用户向计算机发送一个请求，到系统对该请求做出响应并获取它所需结果的等待时间。  </li>
+<li>基准程序：用来测量计算机处理速度的一种实用程序，以便于被测计算机性能可与运行相同程序的其他计算机性能进行比较。（e.g.跑分软件）</li>
+<li>注：</li>
+</ul>
+<ol>
+<li>主频高的计算机不一定比主频低的快。因为CPI可能不同。</li>
+<li>当CPI一定时，主频高的计算机也不一定比主频低的快（因为计算机的指令系统不同）。</li>
+<li>基准程序越快不见得机器性能越好，因为基准程序中的语句存在频度差异。</li>
+</ol>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg" title="头像" alt="头像"></a><div class="post-copyright__author_name">John Doe</div><div class="post-copyright__author_desc"></div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="http://example.com/2025/07/01/CO1/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('http://example.com/2025/07/01/CO1/')">计组笔记第一章</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="http://example.com/2025/07/01/CO1/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=计组笔记第一章&amp;url=http://example.com/2025/07/01/CO1/&amp;pic=" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/Hexo/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Hexo<span class="tagsPageCount">1</span></a><a class="post-meta__box__tags" href="/tags/GitHub/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>GitHub<span class="tagsPageCount">1</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/04/27/64496e511b09c.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__description"></div></div></div><div class="card-widget anzhiyu-right-widget" id="card-wechat" onclick="null"><div id="flip-wrapper"><div id="flip-content"><div class="face" style="background: url(https://bu.dusays.com/2023/01/13/63c02edf44033.png) center center / 100% no-repeat"></div><div class="back face" style="background: url(https://bu.dusays.com/2023/05/13/645fa415e8694.png) center center / 100% no-repeat"></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-1-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95"><span class="toc-number">1.</span> <span class="toc-text">1.1 计算机的发展</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%EF%BC%9F"><span class="toc-number">1.1.</span> <span class="toc-text">什么是计算机系统？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A1%AC%E4%BB%B6%E7%9A%84%E5%8F%91%E5%B1%95"><span class="toc-number">1.2.</span> <span class="toc-text">硬件的发展</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%8F%91%E5%B1%95"><span class="toc-number">1.3.</span> <span class="toc-text">软件的发展</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%89%8D%E7%9A%84%E5%8F%91%E5%B1%95%E8%B6%8B%E5%8A%BF"><span class="toc-number">1.4.</span> <span class="toc-text">目前的发展趋势</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-2-1-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%84%E6%88%90"><span class="toc-number">2.</span> <span class="toc-text">1.2.1 计算机硬件的基本组成</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A9%E6%9C%9F%E5%86%AF%E8%AF%BA%E4%BE%9D%E6%9B%BC%E6%9C%BA%E7%9A%84%E7%BB%93%E6%9E%84"><span class="toc-number">2.1.</span> <span class="toc-text">早期冯诺依曼机的结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%B0%E4%BB%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E7%BB%93%E6%9E%84%EF%BC%88%E5%86%AF%E7%BB%93%E6%9E%84%E7%9A%84%E4%BC%98%E5%8C%96%EF%BC%89"><span class="toc-number">2.2.</span> <span class="toc-text">现代计算机的结构（冯结构的优化）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-2-2-%E5%90%84%E4%B8%AA%E7%A1%AC%E4%BB%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="toc-number">3.</span> <span class="toc-text">1.2.2 各个硬件的工作原理</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E5%AD%98%E5%82%A8%E5%99%A8"><span class="toc-number">3.1.</span> <span class="toc-text">主存储器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%84%E6%88%90"><span class="toc-number">3.2.</span> <span class="toc-text">运算器的基本组成</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%A7%E5%88%B6%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%84%E6%88%90"><span class="toc-number">3.3.</span> <span class="toc-text">控制器的基本组成</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%B7%A5%E4%BD%9C%E8%BF%87%E7%A8%8B"><span class="toc-number">3.4.</span> <span class="toc-text">计算机的工作过程</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-2-3-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84"><span class="toc-number">4.</span> <span class="toc-text">1.2.3 计算机系统的层次结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84"><span class="toc-number">4.1.</span> <span class="toc-text">计算机系统层次结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E7%A7%8D%E7%BA%A7%E5%88%AB%E7%9A%84%E8%AF%AD%E8%A8%80"><span class="toc-number">4.2.</span> <span class="toc-text">三种级别的语言</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-3-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87"><span class="toc-number">5.</span> <span class="toc-text">1.3 计算机的性能指标</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E5%99%A8%E7%9A%84%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87"><span class="toc-number">5.1.</span> <span class="toc-text">存储器的性能指标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CPU%E7%9A%84%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87"><span class="toc-number">5.2.</span> <span class="toc-text">CPU的性能指标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E6%95%B4%E4%BD%93%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87"><span class="toc-number">5.3.</span> <span class="toc-text">系统整体性能指标</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/07/01/CO1/" title="计组笔记第一章">计组笔记第一章</a><time datetime="2025-07-01T03:30:09.000Z" title="Created 2025-07-01 11:30:09">2025-07-01</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2020 - 2025 By <a class="footer-bar-link" href="/" title="John Doe" target="_blank">John Doe</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/tags/" title="tag"><div class="headline">Tags</div><div class="length-num">2</div></a><a href="/categories/" title="category"><div class="headline">Categories</div><div class="length-num">1</div></a></div><span class="sidebar-menu-item-title">Function</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="Display Mode"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>Display Mode</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/GitHub/" style="font-size: 0.88rem;">GitHub<sup>1</sup></a><a href="/tags/Hexo/" style="font-size: 0.88rem;">Hexo<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="Switch Between Traditional Chinese And Simplified Chinese">繁</button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/01/2021 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2020 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 John Doe 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
